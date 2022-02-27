@@ -1,0 +1,87 @@
+.navbar {
+  z-index: 13 !important;
+}
+.align-middle {
+  align-items: center;
+}
+.navbar-brand,
+h2,
+h3 {
+  color: rgb(255, 74, 131) !important;
+}
+.navbar-brand,
+h3 {
+  font-family: Yellowtail, cursive;
+}
+.navbar-brand {
+  text-align: left !important;
+}
+h2 {
+  text-align: center;
+}
+.rounded {
+  width: 50px !important;
+  height: auto;
+}
+.position-absolute {
+  z-index: 20;
+  left: 40%;
+  top: 5%;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+}
+.absolute {
+  top: 23%;
+  left: 30%;
+  font-family: Yellowtail, cursive;
+  text-shadow: 1px 1px 3px black;
+  z-index: 3 !important;
+}
+.absolute h2 {
+  font-size: 45px;
+}
+
+.img-bakery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bakery {
+  width: 80%;
+  height: auto;
+}
+.card-body {
+  width: 90vw;
+  border: none;
+}
+
+.action {
+  background-color: rgb(255, 74, 131);
+  color: white;
+  font-family: Yellowtail, cursive;
+  text-align: left !important;
+}
+.service {
+  filter: brightness(0.4);
+}
+h1 {
+  font-size: 40px;
+}
+.card-footer {
+  background-color: rgb(53, 58, 64) !important;
+  font-size: 10px;
+}
+.description-footer {
+  color: #aaa !important;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .action {
+    text-align: right !important;
+  }
+
+  .absolute {
+    top: 60%;
+    left: 60%;
+  }
+}
